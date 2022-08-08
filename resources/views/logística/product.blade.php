@@ -1,4 +1,4 @@
-@extends('stock.layouts.master')
+@extends('logística.layouts.master')
 @section('main')
     <main id="main" class="main">
         <div class="pagetitle">

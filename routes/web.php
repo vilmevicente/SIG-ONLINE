@@ -16,9 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('core');
 });
-Route::get('/stock', function () {
-    return view('stock.index');
+Route::get('/logística', function () {
+    return view('logística.index');
 });
-Route::get('/stock/products', function () {
-    return view('stock.product');
+Route::get('/logística/encomendas', function () {
+    return view('logística.product');
+});
+Route::get('/logística/stock', function () {
+    return view('logística.stock');
+});
+Route::get('/logística/entregas', function () {
+    return view('logística.entregas');
 });

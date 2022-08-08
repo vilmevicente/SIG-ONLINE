@@ -32,7 +32,7 @@
         <img src=" {{secure_asset('core/shopping 1.png')}}" alt="">
 
     </a>
-    <a  href="/stock" class="btn" title="Logística">
+    <a  href="/logística" class="btn" title="Logística">
         <img src="{{secure_asset('core/ready-stock 1.png')}}" alt="">
 
     </a>

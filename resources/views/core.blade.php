@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{secure_asset('core.css')}}">
+    <link href="{{secure_asset('core/2.png')}}" rel="icon">
     <title>Core SIG</title>
 
 </head>
@@ -24,11 +25,11 @@
         <img src=" {{secure_asset('core/folder.png')}}" alt="">
 
     </a>
-    <a href="/vendas"  class="btn" title="Vendas">
+    <a href="http://db-ec3m.epizy.com/"  class="btn" title="Vendas">
         <img src="  {{secure_asset('core/shopping-bag 1.png')}}" alt="">
 
     </a>
-    <a  href="compras" class="btn" title="Compras">
+    <a  href="/compras" class="btn" title="Compras">
         <img src=" {{secure_asset('core/shopping 1.png')}}" alt="">
 
     </a>
